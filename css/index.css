@@ -1,0 +1,329 @@
+@media only screen and (min-width: 700px) {
+
+    /* Intro
+===================*/
+    .intro__top {
+        background: linear-gradient(255.06deg, #FCFDFA 8.87%, rgba(255, 255, 255, 0) 85.66%), linear-gradient(181.56deg, #FEFDF4 1.32%, rgba(255, 255, 255, 0) 62.39%),
+            url('../img/harvest-ripening-of-tomatoes.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+    .intro__link {
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-grow: 1;
+        color: #000000;
+    }
+
+    .btn__intro__link {
+        max-width: 210px;
+    }
+
+    .intro__btn,
+    .intro__btn1 {
+        width: 220px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro__btn1 {
+        margin: 0 auto;
+    }
+
+    .intro__btn a,
+    .intro__btn1 {
+        color: #FFFFFF;
+    }
+
+    .header__intro {
+        padding: 50px 0 0;
+        margin: 0 auto;
+    }
+
+    .container2__galery {
+        background-image: url('../img/harvest-ripening-of-tomatoes-2.jpg');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+    .intro__galery--text {
+        padding: 180px 0 200px;
+    }
+
+    .intro__galery--text h1 {
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 67px;
+    }
+
+    .intro__galery--text h1::before {
+        content: url('../img/logo_intro.svg');
+    }
+
+
+    .intro__galery--text h4 {
+        padding-left: 40px;
+        font-size: 55px;
+        font-weight: 300;
+        line-height: 67px;
+    }
+
+    .intro__galery--text p {
+        padding-left: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 117%;
+        padding-bottom: 23px;
+    }
+
+    /* MAIN
+===================*/
+
+    .main__inner {
+        padding: 7em 0 7em 0;
+
+    }
+
+    .main__inner__top {
+        display: flex;
+        width: 100%;
+
+    }
+
+    .main__inner__top__img {
+        width: 50%;
+    }
+
+    .main__inner__top__text {
+        width: 50%;
+        padding-left: 125px;
+    }
+
+    .main__inner__top h1,
+    .section5__text h1 {
+        font-size: 45px;
+        font-weight: 700;
+        padding-bottom: 9px;
+
+    }
+
+    .main__inner__top h1::before,
+    .section5__text h1::before {
+        padding-right: 17px;
+        content: url('../img/logo_intro.svg');
+    }
+
+    .main__inner__top__text p,
+    .section5__text p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .main__inner__top__text p:last-of-type {
+        margin-bottom: 3em;
+    }
+
+    .main {
+        background: radial-gradient(50% 50% at 50% 50%, rgba(231, 78, 19, 0.1) 0%, rgba(231, 78, 19, 0) 100%) no-repeat;
+    }
+
+    .main__section2_text h1 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .main__section2_text {
+        text-align: center;
+    }
+
+    .main__section2_text h1::before {
+        padding-right: 17px;
+        content: url('../img/logo_intro.svg');
+    }
+
+    .main__section2_text h1::after {
+        padding-left: 17px;
+        content: url('../img/logo_intro2.svg');
+    }
+
+    .arrow__content {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .carousel {
+        display: flex;
+        padding: 40px 0 100px 0;
+    }
+
+    .arrow__left {
+        align-self: center;
+        background: url('../img/arrow.svg') no-repeat center center;
+    }
+
+    .arrow__right {
+        align-self: center;
+        background: url('../img/arrow_r.svg') no-repeat center center;
+    }
+
+    .carousel>div {
+        padding-left: 30px;
+    }
+
+    .carousel>div:hover {
+        transform: scale(1.15);
+    }
+
+    .carousel1 {
+        padding-left: 0 !important;
+    }
+
+    .section3 {
+        padding: 112px 0 117px 0;
+        background-color: #1E6140;
+        /*background: radial-gradient(50% 50% at 50% 50%, rgba(132, 190, 81, 0.4) 0%, rgba(210, 230, 189, 0) 100%);*/
+    }
+
+    .section3__btn {
+        text-align: center;
+    }
+
+    .section3__btn .btn:hover {
+        background-color: #84c551;
+    }
+
+    .section4 {
+        padding: 110px 0 185px 0;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(132, 190, 81, 0.3) 0%, rgba(210, 230, 189, 0) 100%);
+    }
+
+    .section4__carousel {
+        display: flex;
+        padding-top: 2vw;
+    }
+
+    .section4__carousel>div {
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        border-radius: 1vw;
+        padding: 1vw 2vwv;
+        display: flex;
+    }
+
+    .carousel__item:hover {
+        transform: scale(1.5);
+    }
+
+    .section5 {
+        padding: 110px 0 120px;
+        background: url('../img/happy-farmer.jpg') no-repeat;
+    }
+
+    .section5__text {
+        color: #FFFFFF;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    .header__intro {
+        padding: 25px 10px;
+    }
+
+    h4 {
+        padding-left: 40px;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+
+    .intro__galery--text p {
+        padding-left: 40px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    .intro__btn a,
+    .intro__btn1 {
+        color: #FFFFFF;
+    }
+
+    .main__inner__top {
+        padding: 0 15px;
+    }
+
+    .main__inner__top__text p,
+    .section5__text p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .main__inner__top__text h1 {
+        margin-top: 15px;
+    }
+
+    .arrow__left,
+    .arrow__right,
+    .arrow__content .carousel .carousel2,
+    .arrow__content .carousel .carousel3,
+    .arrow__content .carousel .carousel4,
+    .section4__carousel .carousel__item:not(:first-of-type) {
+        display: none;
+    }
+
+    .arrow__content,
+    .section4__carousel,
+    .carousel {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel {
+        flex-wrap: wrap;
+    }
+
+    .section3,
+    .main__section2,
+    .section4,
+    .section5 {
+        padding: 0 15px;
+    }
+
+    .section3 {
+        padding: 34px 0 40px 0;
+        background-color: #1E6140;
+    }
+    .btn {
+        margin-top: 37px;
+    }
+    .carousel__item {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding: 10px 21px;
+    }
+    .section4 {
+        padding-bottom: 30px;
+    }
+    .section5 {
+        padding: 40px 15px;
+        background: url('../img/s5-1.png') no-repeat;
+        background-size: cover;
+    }
+
+    .section5__text,
+    .section5__text h1 {
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,115 @@
+@media only screen and (min-width: 700px) {
+
+    /* MAIN
+===================*/
+
+    .main__section2_text {
+        margin-bottom: 28px;
+        text-align: center;
+    }
+
+    .main__section2_text p {
+        padding: 0 50px;
+    }
+
+    .main__section2_text h1 {
+        padding-bottom: 21px;
+    }
+
+    .section2__inner {
+        padding: 37px 0 122px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .section2__item:hover {
+        transform: scale(1.1);
+    }
+
+    .section2__item {
+        padding: 10px 10px;
+    }
+
+    .section2__text {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        background: #E5E5E5;
+        border-radius: 20px;
+    }
+
+    .section2__part {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .part--items,
+    .part--items__img,
+    .part--items__text {
+        flex: 50%;
+    }
+
+    .half {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 8px 0;
+    }
+
+    .part--items__img {
+        padding: 20px 40px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .part--items__img:hover {
+        transform: scale(1.5);
+    }
+
+    .part--items__text {
+        padding-left: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .full {
+        padding: 15px 8px 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    .section2 {
+        padding: 60px 0;
+    }
+    .part--items__text {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        margin: 19px 0 16px;
+    }
+
+    .section2__part {
+        padding: 0 15px;
+    }
+
+    .part--items {
+        padding-bottom: 20px;
+    }
+
+    .part--items__img {
+        padding: 15px 25px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        margin-right: 120px;
+    }
+
+}

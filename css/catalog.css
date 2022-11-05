@@ -1,0 +1,124 @@
+@media only screen and (min-width: 700px) {
+
+    /* Intro
+===================*/
+.section2 {
+    padding-bottom: 0;
+}
+    .main__section2_text {
+        text-align: center;
+    }
+
+    .section2__inner {
+        padding: 37px 0 122px;
+    }
+
+    .section2__item:hover {
+        transform: scale(1.1);
+    }
+
+    .section2__item {
+        padding: 10px 10px;
+        ;
+    }
+
+    .section2__text {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        background: #E5E5E5;
+        border-radius: 20px;
+    }
+
+    .full,
+    .half {
+        display: flex;
+    }
+
+
+    /* MAIN
+===================*/
+
+    .section5__text h1 {
+        padding-bottom: 9px;
+
+    }
+
+    .section5__text p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .section5 {
+        padding: 110px 5px 110px;
+        background-image: url('../img/happy-farmer_2.jpg');
+        background-repeat: no-repeat;
+    }
+
+    .section5__text {
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .section2 {
+        padding: 60px 0 0; 
+    }
+
+    .section2__text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        color: #000000;
+    }
+
+    .section2__inner {
+        padding-bottom: 40px;
+    }
+
+    .section2__item {
+        padding: 20px 10px 0 10px;
+    }
+
+    .full {
+        display: flex;
+        flex: 100%;
+        flex-direction: column;
+    }
+
+    .half {
+        display: flex;
+        flex: 50%;
+    }
+
+    .section5 {
+        padding: 40px 0;
+        background-image: url(../img/s5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section5__text h1 {
+        padding-bottom: 9px;
+        color: #FFFFFF;
+    }
+
+    .section5__text p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .section5__text {
+        color: #FFFFFF;
+        padding: 0 15px;
+    }
+}

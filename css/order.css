@@ -1,0 +1,271 @@
+@media only screen and (min-width: 700px) {
+
+    /* Intro
+===================*/
+
+    .main__section2_text {
+        margin-bottom: 28px;
+        text-align: center;
+    }
+
+    .section2__inner {
+        padding: 37px 0 122px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .section2__item:hover {
+        transform: scale(1.1);
+    }
+
+    .section2__item {
+        padding: 10px 10px;
+    }
+
+    .section2__text {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        background: #E5E5E5;
+        border-radius: 20px;
+    }
+
+
+
+    /* MAIN
+===================*/
+
+    .section5__text h1 {
+        padding-bottom: 9px;
+    }
+
+    .section5__text p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .section5 {
+        padding: 110px 0 110px;
+        background-image: url('../img/happy-farmer_2.jpg');
+        background-repeat: no-repeat;
+    }
+
+    .section5__text {
+        color: #FFFFFF;
+    }
+
+    /* FORM
+===================*/
+    .form--text,
+    .form--text__form {
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        padding-bottom: 15px;
+    }
+
+    .form--text__form {
+        border-bottom: none;
+    }
+
+    .radio {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #484848;
+        margin: 7px 0;
+    }
+
+    .col-25 {
+
+        flex: 25%;
+    }
+
+    .col-75 {
+        -ms-flex: 75%;
+        flex: 75%;
+    }
+
+    .col-25,
+    .half,
+    .col-75,
+    .full {
+        padding: 0 10px;
+    }
+
+    .radio {
+        display: block;
+    }
+
+    textarea {
+        resize: none;
+        height: 100px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .icon-container {
+        margin-bottom: 20px;
+        padding: 7px 0;
+        font-size: 24px;
+    }
+
+    .basket__img {
+        padding-left: 30px;
+    }
+
+    .basket_content {
+        display: flex;
+        width: 100%;
+    }
+
+    .container__order {
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 0 30px 30px;
+    }
+
+    .basket__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url('../img/orderX.svg');
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding: 0 25px 0 20px;
+    }
+
+    .basket__text p:first-of-type {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000
+    }
+
+    .basket__text p:last-of-type {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #84BE51;
+    }
+
+    .basket__res {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background: #21603F;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 30px 0 20px;
+        color: #FFFFFF;
+    }
+    .basket__res b {
+    color: #84BE51;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .section2 {
+        padding: 60px 0 40px; 
+    }
+
+    .section2__text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        color: #000000;
+    }
+
+    .section2__inner {
+        padding-bottom: 40px;
+    }
+
+    .section2__item {
+        padding: 20px 10px 0 10px;
+    }
+
+    .full {
+        display: flex;
+        flex: 100%;
+        flex-direction: column;
+    }
+
+    .half {
+        display: flex;
+        flex: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 5px;
+    }
+
+    textarea {
+        resize: none;
+        height: 100px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .form--text {
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+    }
+    .container__order {
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 20px 15px;
+    }
+
+    .radio__col {
+        padding-bottom: 40px;
+    }
+
+    .radio {
+        padding-bottom: 15px;
+    }
+
+    .basket__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url('../img/orderX.svg');
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding: 0 25px 0 20px;
+    }
+
+    .basket__text p:first-of-type {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000
+    }
+
+    .basket__text p:last-of-type {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #84BE51;
+    }
+
+    .basket__res {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background: #21603F;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 30px 0 20px;
+        color: #FFFFFF;
+    }
+    .basket__res b {
+    color: #84BE51;
+    }
+
+}

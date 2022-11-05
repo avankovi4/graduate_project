@@ -1,0 +1,30 @@
+@media only screen and (min-width: 700px) {
+
+    /* Intro
+===================*/
+    .section3 {
+        padding-top: 30px;
+    }
+
+    li {
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+
+    .section3__img {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .section3__img__items:hover {
+        transform: scale(1.2);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+       .section2 {
+        padding: 60px 0;
+    }
+}

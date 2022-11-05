@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,regular,600,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/order.css">
+    <title>Оформлення заказу</title>
+</head>
+
+<body>
+
+    <body>
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__inner">
+                        <nav class="menu">
+                            <div class="menu__drop">
+                                <a href="about.html" class="menu__link" target="_blank">Про нас</a>
+                                <div class="menu__drop__content">
+                                    <a href="about.html" class="menu__link" target="_blank">Наша команда</a>
+                                    <a href="partners.html" class="menu__link" target="_blank">Партнери</a>
+                                    <a href="dogovor.html" class="menu__link" target="_blank">Договір</a>
+                                </div>
+                            </div>
+                            <a href="catalog.html" class="menu__link" target="_blank">Каталог продукції</a>
+                            <a href="dogovor.html" class="menu__link" target="_blank">Оплата і доставка</a>
+                            <a href="partners.html" class="menu__link" target="_blank">Партнери</a>
+                            <a href="about.html" class="menu__link" target="_blank">Новини</a>
+                            <a href="about.html" class="menu__link" target="_blank">Контакти</a>
+                        </nav>
+                        <div class="header__enter">
+                            <a class="enter__text" href="registration.html" target="_blank">Вхід | Реестрація</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="Intro">
+            <div class="container">
+                <div class="header__inner2">
+                    <div class="header__bottom">
+                        <a class="logo" href="index.html">
+                            <img src="img/Logo.png" alt="logo" title="logo">
+                        </a>
+                    </div>
+                    <form class="header__search">
+                        <input type="text" maxlength="25" placeholder=" Пошук" class="searchbar">
+                        <img src="img/Search.svg" alt="Search" class="searchButton">
+                    </form>
+                    <div class="phone">
+                        <div class="phone__inner">
+                            <a class="phone__inner1" href="tel:380671150058">
+                                <img src="img/call.svg" alt="call" title="call">
+                            </a>
+                        </div>
+                        <div class="phone__inner_text">
+                            <p>+38 (067) 115 00 58</p>
+                            <a href="about.html" target="_blank">Замовити зворотній зв’язок</a>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <a class="icons__icon1" href="index.html">
+                            <img src="img/heart.svg" alt="heart" title="heart">
+                        </a>
+                        <a class="icons__icon2" href="index.html">
+                            <img src="img/compare.svg" alt="compare" title="compare">
+                        </a>
+                        <a class="icons__icon3" href="order.html" target="_blank">
+                            <img src="img/basket.svg" alt="basket" title="basket"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="intro__link">
+                    <div class="btn__intro__link btn__link1"><a href="catalog.html" target="_blank">Насіння</a></div>
+                    <div class="btn__intro__link btn__link2"><a href="catalog.html" target="_blank">Засоби захисту рослин</a></div>
+                    <div class="btn__intro__link btn__link3"><a href="catalog.html" target="_blank">Добрива</a></div>
+                    <div class="btn__intro__link btn__link4"><a href="catalog.html" target="_blank">кормова група</a></div>
+                    <div class="btn__intro__link btn__link5"><a href="catalog.html" target="_blank">Агроному в поміч</a></div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="container">
+                    <div class="container__form">
+                        <div class="main__section2__text">
+                            <h1>Оформлення заказу</h1>
+                        </div>
+                        <div class="form--text__form">
+                            <div class="half">
+                                <div class="container">
+                                    <form action="https://www.w3schools.com/action_page.php" method="post"
+                                        target="_blank">
+                                        <h3>Ваші контакти</h3>
+                                        <div class="form--text">
+                                            <div class="half">
+                                                <input type="text" id="fname" name="firstname" placeholder="Ім’я">
+                                                <input type="text" id="phone" name="phone" placeholder="Телефон">
+                                            </div>
+                                            <div class="half">
+                                                <input type="text" id="lname" name="lastname" placeholder="Фамілія">
+                                                <input type="text" id="mail" name="mail" placeholder="E-mail">
+                                            </div>
+                                            <div class="full">
+                                                <textarea id="comment" name="comment"
+                                                    placeholder="Коментарій"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <h3>Доставка</h3>
+                                        <div class="form--text">
+                                            <div class="half">
+                                                <select id='choice' name='Oblast'>
+                                                    <option selected disabled>Область</option>
+                                                    <option>Одеська область</option>
+                                                    <option value=1>Дніпропетровська область</option>
+                                                    <option>Чернігівська область</option>
+                                                    <option>Харківська область</option>
+                                                    <option>Житомирська область</option>
+                                                    <option>Полтавська область</option>
+                                                    <option>Херсонська область</option>
+                                                    <option>Київська область</option>
+                                                </select>
+                                                <select id='choice' name='department'>
+                                                    <option selected disabled>Відділення</option>
+                                                    <option value=2>Відділення 1</option>
+                                                    <option value=3>Відділення 2</option>
+                                                    <option value=4>Відділення 3</option>
+                                                    <option value=4>Відділення 4</option>
+                                                    <option value=4>Відділення 5</option>
+                                                </select>
+                                            </div>
+                                            <div class="half">
+                                                <select id='choice' name='City'>
+                                                    <option selected disabled>Місто</option>
+                                                    <option>Київ</option>
+                                                    <option>Харків</option>
+                                                    <option>Дніпро</option>
+                                                    <option>Одеса</option>
+                                                    <option>Донецьк</option>
+                                                    <option>Запоріжжя</option>
+                                                    <option>Львів</option>
+                                                </select>
+                                                <input type="text" id="pc" name="postcode"
+                                                    placeholder="Поштовий індекс">
+                                            </div>
+                                        </div>
+                                        <h3>Оплата</h3>
+                                        <div class="radio__col">
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" checked name="radio_choice" value="Готівка">
+                                                    Готівка
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="radio_choice" value="Оплата картою">
+                                                    Оплата картою
+                                                </label>
+                                            </div>
+                                            <div class="radio"><label>
+                                                    <input type="radio" name="radio_choice"
+                                                        value="Оплата картою онлайн"> Оплата картою онлайн
+                                                </label>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="half">
+                                <div class="container__order">
+                                    <h3>Товари у кошику</h3>
+                                    <div class="container">
+                                        <div class="basket_content">
+                                            <div class="basket__img">
+                                                <img src="img/order1.jpg" alt="order_img" title="Гербіцид">
+                                            </div>
+                                            <div class="basket__text">
+                                                <p>Гербіцид Комманд&copy;, ФМС УКРАЇНА</p>
+                                                <p>7814,63 грн</p>
+                                            </div>
+                                        </div>
+                                        <div class="basket_content">
+                                            <div class="basket__img">
+                                                <img src="img/order1.jpg" alt="order_img" title="Гербіцид">
+                                            </div>
+                                            <div class="basket__text">
+                                                <p>Гербіцид Комманд&copy;, ФМС УКРАЇНА</p>
+                                                <p>7814,63 грн</p>
+                                            </div>
+                                        </div>
+                                        <div class="basket__res">
+                                            <div class="res">
+                                                Разом: <b>2 товари</b>
+                                            </div>
+                                            <div class="res">
+                                                На суму: <b>15 629,26</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="submit" value="Підтвердити заказ" class="btn">
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="menu__bottom__container">
+                    <div class="menu__bottom">
+                        <div class="menu__bottom__col">
+                            <div class="col-ttl--logo">
+                                <a href="index.html" title="Logo" target="_blank"><img src="img/Logo.png" alt="logo"
+                                        title="logo"></a>
+                            </div>
+                            <div class="col-item">
+                                <p>Пропонуємо покупцям широкий вибір насіння овочів</p>
+                            </div>
+                        </div>
+                        <div class="menu__bottom__col">
+                            <div class="col-ttl">
+                                <a title="Інформація">Інформація</a>
+                            </div>
+                            <div class="col-item">
+                                <a href="about.html" title="Про компанію" target="_blank">Про компанію</a>
+                            </div>
+                            <div class="col-item">
+                                <a href="dogovor.html" title="Оплата і доставка" target="_blank">Оплата і доставка</a>
+                            </div>
+                            <div class="col-item">
+                                <a href="partners.html" title="Партнери" target="_blank">Партнери</a>
+                            </div>
+                        </div>
+                        <div class="menu__bottom__col">
+                            <div class="col-ttl">
+                                <a title="Товари">Товари</a>
+                            </div>
+                            <div class="col-item">
+                                <a href="catalog.html" title="Каталог продукції" target="_blank">Каталог продукції</a>
+                            </div>
+                            <div class="col-item">
+                                <a href="catalog.html" title="Засоби захисту рослин" target="_blank">Засоби захисту рослин</a>
+                            </div>
+                            <div class="col-item">
+                                <a href="catalog.html" title="Насіння" target="_blank">Насіння</a>
+                            </div>
+                            <div class="col-item">
+                                <a href="catalog.html" title="Добрива" target="_blank">Добрива</a>
+                            </div>
+                            <div class="col-item">
+                                <a href="catalog.html" title="Агроному в поміч" target="_blank">Агроному в поміч</a>
+                            </div>
+                        </div>
+                        <div class="menu__bottom__col">
+                            <div class="col-ttl">
+                                <a title="Контакти">Контакти</a>
+                            </div>
+                            <div class="col-item tel">
+                                <div class="tel--img">
+                                    <a href="tel:380671150058"><img src="img/call.svg" alt="phone" title="phone"></a>
+                                </div>
+                                <div class="tel--text">
+                                    <a href="tel:380671150058">+38 (067) 115 00 58</a>
+                                    <a href="about.html" title="зворотній зв’язок" target="_blank">Замовити зворотній зв’язок</a>
+                                </div>
+                            </div>
+                            <div class="col-item tel">
+                                <div class="tel--img">
+                                    <a href="mailto:DAT@gmail.com"><img src="img/mail.svg" alt="mail" title="mail"></a>
+                                </div>
+                                <div class="tel--text">
+                                    <a href="mailto:DAT@gmail.com">DAT @ gmail. com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a id="button" href="#"><img src="img/top.svg" alt="arrow-top" title="arrow-top"></a>
+                    <div class="footer__bottom">
+                        <p>&copy; 2022 DAT</p>
+                    </div>
+                </div>
+        </footer>
+
+        <script src='js/jquery-3.6.1.js'></script>
+        <script src='js/index.js'></script>
+
+    </body>
+
+</html>
